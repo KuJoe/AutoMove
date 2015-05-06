@@ -1,0 +1,26 @@
+AutoMove 1.0 MyBB Plugin by KuJoe <www.jmd.cc>
+Based off of the AutoExpunge plugin by The forum.kde.org team <kde-forum@nerdstock.org>
+
+\\What it does:\\
+_\\_____________\\_
+Automatically moves threads from one forum to another after the threads become a certain age. This was designed to be used with a Test/Spam forum and instead of deleting the threads it will automatically move them to either an archive or a hidden forum of your choosing based on how many hours old the thread is or based on how many hours old the last reply is.
+
+\\How to install:\\
+_\\_______________\\_
+1) Upload the included \inc\ folder into your forums root directory (this will result in 1 automove.php file in your \plugins\ directory and 1 in your \tasks\ directory).
+2) Activate the plugin and configure the settings to your liking under Board Settings.
+3) OPTIONAL: Adjust the task run time. Currently it is configured to run every 30 minutes at the 15th and 45th minute of the hour but you may choose to have this run more or less based on your preference.
+
+\\How to upgrade:\\
+_\\_______________\\_
+1) Deactivate older version.
+2) Uploaded and overwrite all files.
+3) Activate the plugins and configure settings to your liking under Board Settings.
+
+\\Additional Info:\\
+_\\________________\\_
+This is my first plugin release so feedback is appreciated! I'm still very new to PHP so if you have any tips or suggestions feel free to let me know. ;) This plugin was created based off of the AutoExpunge plugin by the forum.kde.org team and they must be given credit for any works created or derived from this code. You are free to use this code and plugin as long as it follows the Expat "MIT" License requirements and restrictions.
+
+\\Change Log:\\
+_\\___________\\_
+1.0- Initial Release
